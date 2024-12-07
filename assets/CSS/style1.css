@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 244, 244);
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 20px 0;
+    color: rgb(44, 62, 80);
+}
+
+hr {
+    border: 1px solid rgb(221, 221, 221);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.certificate-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.certificate-container ol {
+    padding-left: 20px;
+}
+
+.certificate-container li {
+    margin-bottom: 40px;
+    text-align: left;
+    list-style-type: upper-roman;
+}
+
+.certificate-container h3 {
+    font-size: 24px;
+    color: rgb(76, 175, 80);
+    margin-bottom: 10px;
+}
+
+.certificate-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-container a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(76, 175, 80);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(69, 160, 73);
+}
+
+button:active {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .certificate-container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .certificate-container h3 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}

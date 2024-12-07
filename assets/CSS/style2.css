@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 244, 244);
+    color: rgb(51, 51, 51);
+}
+
+#body-background {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#main-title {
+    text-align: center;
+    color: rgb(44, 62, 80);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: none;
+    height: 2px;
+    background-color: rgb(44, 62, 80);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.education-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+}
+
+.education-table th,
+.education-table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.table-header {
+    background-color: rgb(44, 62, 80);
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+
+.table-row:nth-child(even) {
+    background-color: rgb(249, 249, 249);
+}
+
+.table-row:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.table-row:hover {
+    background-color: rgb(223, 240, 216);
+}
+
+@media (max-width: 768px) {
+    .education-table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #main-title {
+        font-size: 32px;
+    }
+}
